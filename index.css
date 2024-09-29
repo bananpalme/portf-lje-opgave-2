@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     color: #8B969D;
-    
 }
 
 header {
@@ -74,23 +73,27 @@ body {
     font-size: 0.7rem;
 }
 
-.teamRanking {
+.rankingList {
     list-style-position: inside;
     background-color: #22272F;
-    padding: 1rem;
+
 
 }
 
-.teamRanking ol {
-    display: flex;
-    flex-direction: column;
 
-}
-
-.teamRanking li {
+.rankingList li {
     font-size: 0.8rem;
-    margin: 0.3rem 0;
     border-bottom: solid darkgray 1px;
+    padding: .5rem;
+}
+
+.rankingList ul {
+    list-style-type: none;
+}
+
+.rankingList li:hover {
+    cursor: pointer;
+    background-color: #546980;
 }
 
 .bigPicture {
@@ -119,6 +122,11 @@ body {
     height: 2vh;
 }
 
+.articleDiv:hover {
+    cursor: pointer;
+    background-color: #546980;
+}
+
 .matches {
     width: 13vw;
     padding: 0 0.8rem;
@@ -137,6 +145,11 @@ body {
     border-bottom: solid darkgray 1px;
     padding: .3rem;
 
+}
+
+.matchup:hover {
+    cursor: pointer;
+    background-color: #546980;
 }
 
 .matchupTeam {
@@ -173,6 +186,11 @@ body {
     padding: .3rem;
     display: flex;
     justify-content: space-between;
+}
+
+.forumPostsYellow:hover, .forumPostsGreen:hover, .forumPostsRed:hover{
+    cursor: pointer;
+    background-color: #546980;
 }
 
 .forumPostsYellow {
