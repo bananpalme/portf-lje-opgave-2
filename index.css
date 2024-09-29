@@ -1,8 +1,10 @@
 * {
     font-family: sans-serif;
+    font-size: 1rem;
     margin: 0;
     padding: 0;
     color: #8B969D;
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,651;1,651&display=swap');
 }
 
 header {
@@ -54,16 +56,16 @@ body {
 
 .content {
     display: flex;
-
+    height: 175vh;
 }
 
 .ranking {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1vh;
     width: 15vw;
-    height: 150vh;
-    padding: 0.8rem;
+
+    padding: 0 0.8rem;
 }
 
 .ranking p {
@@ -95,7 +97,97 @@ body {
     width: 25vw;
 }
 
+.tournamentPicture {
+    width: 25vw;
+}
+
+.articleDiv {
+    background-color: #2D3844;
+    border-bottom: solid darkgray 1px;
+    padding: .5rem;
+    display: flex;
+    gap: 1rem;
+    place-items: center;
+}
+
+.articleDiv h3 {
+    color: #84A1BE;
+}
+
+.articleDiv img {
+    width: 1.2vw;
+    height: 2vh;
+}
+
 .matches {
     width: 13vw;
-    padding: 0.8rem;
+    padding: 0 0.8rem;
 }
+
+.matchesText {
+    padding: .3rem 0 .3rem .3rem;
+    color: #bFcFd3;
+    background-color: #435971;
+    font-weight: 800;
+    font-size: 0.7rem;
+}
+
+.matchup {
+    background-color: #2D3844;
+    border-bottom: solid darkgray 1px;
+    padding: .3rem;
+
+}
+
+.matchupTeam {
+    display: flex;
+    justify-content: space-between;
+    color: #84A1BE;
+    font-size: .8rem;
+}
+.matchupTeamWinner {
+    color: #0AC013;
+    font-size: .8rem;
+}
+
+.matchupTeamLoser {
+    color: #FC1D28;
+    font-size: .8rem;
+}
+
+.activity {
+    width: 15vw;
+    margin-right: .6vw;
+}
+
+.activityTitle {
+    color: #5F6F73;
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin-bottom: 1vh;
+}
+
+.forumPostsYellow, .forumPostsGreen, .forumPostsRed {
+    background-color: #2D3844;
+    border-bottom: solid darkgray 1px;
+    padding: .3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forumPostsYellow {
+    border-left: solid yellow 2px;
+}
+
+.forumPostsGreen {
+    border-left: solid forestgreen 2px;
+}
+.forumPostsRed {
+    border-left: solid crimson  2px;
+}
+
+.forumPostsYellow p, .forumPostsRed p, .forumPostsGreen p {
+    color: #84A1BE;
+    font-size: .8rem;
+}
+
